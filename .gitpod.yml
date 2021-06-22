@@ -5,6 +5,8 @@ ports:
   onOpen: notify
 - port: 5900
   onOpen: ignore
+- port: 3000
+  onOpen: open-browser
 tasks:
 - command: >
     npm install &&
